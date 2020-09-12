@@ -16,13 +16,14 @@ div.content {
 div.text_content{
     max-width: 650px;
 }
-.headingM {
+h1{
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Circular-Medium-Italic;
+    font-family: Circular-Medium;
     font-size: 64px;
     color: #333
 }
+h1.headingM{font-family: Circular-Medium-Italic;}
 p.note, a{
     font-family: Circular-Book-Italic;
     font-size: 24px;
@@ -52,7 +53,7 @@ a{
     -ms-transition:color .2s ease-out;
     -moz-transition:color .2s ease-out;
     -webkit-transition:color .2s ease-out;
-    transition:color .2s ease-out, background 1s ease-in;
+    transition:color .2s ease-out
 }
 a:visited,a:link,a:active{
     color: #111111;
