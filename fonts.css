@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Circular-Book-Italic;
+    src: url(../talbisite/fonts/circular-book-italic.otf)
+}
+@font-face {
+    font-family: Circular-Book;
+    src: url(../talbisite/fonts/circular-book.otf)
+}
+@font-face {
+    font-family: Circular-Medium;
+    src: url(../talbisite/fonts/circular-medium.otf)
+}
+@font-face{
+    font-family: Circular-Medium-Italic;
+    src: url(../talbisite/fonts/circular-medium-italic.otf);
+}
