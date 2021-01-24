@@ -13,9 +13,7 @@ div.content {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%)
 }
-div.text_content{
-    max-width: 650px;
-}
+
 h1{
     margin-top: 0;
     margin-bottom: 0;
@@ -25,7 +23,7 @@ h1{
 }
 h1.headingM{font-family: Circular-Medium-Italic;}
 p.note, a{
-    font-family: Circular-Book-Italic;
+    font-family: Circular-Medium-Italic;
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 0;
@@ -37,6 +35,7 @@ p{
     margin-top: 0;
     margin-bottom: 0;
     color: #111111;
+    text-align: left;
 }
 
 ul {
@@ -49,17 +48,18 @@ li {
 a{
     text-decoration: none;
     color:#111111; 
-    -o-transition:color .2s ease-out;
+    /*-o-transition:color .2s ease-out;
     -ms-transition:color .2s ease-out;
     -moz-transition:color .2s ease-out;
     -webkit-transition:color .2s ease-out;
-    transition:color .2s ease-out
+    transition:color .2s ease-out*/
 }
 a:visited,a:link,a:active{
     color: #111111;
 }
 a:focus,a:hover{
     color: #D2D2D2;
+    cursor: crosshair;
 }
 ::selection {
     background-color: #26a4ff;
