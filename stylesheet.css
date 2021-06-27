@@ -54,6 +54,9 @@ a{
     -webkit-transition:color .2s ease-out;
     transition:color .2s ease-out*/
 }
+a.nav-link {
+    margin: 0 2px;
+}
 a:visited,a:link,a:active{
     color: #111111;
 }
