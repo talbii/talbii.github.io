@@ -16,17 +16,27 @@
        
         <p>
             Hello! my name is Talbi and I'm a <span id="age"></span>yo 
-            Computer Science / Mathematics student at University of Haifa.
+            Computer Science / Mathematics student at University of Haifa. (currently in my <span id="year"></span> year)
             
         </p>
         <p>
-            In my spare time I answer questions in <a href="https://math.stackexchange.com/users/655052/talbi" rel="noopener noreferrer">Mathematics SE</a>, 
-            and also kind-of working on my side projects (currently: Quickmark).  
+            In my spare time I mostly answer questions in <a href="https://math.stackexchange.com/users/655052/talbi" rel="noopener noreferrer">Mathematics SE</a> (I hope I helped you!), 
+            and also kind-of working on my side projects in Python and C/C++.
+        </p>
+        <p>
+            My favourite branches in math include Calculus, Number Theory (mainly prime numbers), and Cryptography (some of the probability behind it).
         </p>
         </div>
         <script>
-            //Calculate approximate age.
+            // Calculate approximate dates
             document.getElementById("age").innerHTML = String(Math.floor((new Date().getTime() - 1098914400000) / 31536000000));
+            var y = new Date().getYear() - 120
+            document.getElementById("year").innerHTML = String((y+1) + ["st", "nd", "rd", "th"][
+                ((t) => {
+                    if(t < 3) return t;
+                    return 3;
+                })(y)
+            ]);
         </script>
         <script src="/nav.js"></script>
     </div>
